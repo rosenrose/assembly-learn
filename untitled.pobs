@@ -10,6 +10,10 @@
         "ID": "b0bcafaf-a804-404f-b935-a9807f4a65ec"
       },
       {
+        "$type": "PowerSource5V",
+        "ID": "27077cb8-f300-4c21-95bf-70eeb1080f34"
+      },
+      {
         "$type": "WDC65C02",
         "ID": "bbef04c8-16c1-4f99-928f-055ac1aca9d7"
       },
@@ -52,6 +56,30 @@
       {
         "$type": "BlueWire",
         "ID": "8b5c1b8b-742e-4712-a333-1bd40778cd0a"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "f7ab33cd-b70d-4ceb-ae26-9045e7e535e5"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "d6b45d41-cf8b-4824-94c1-badb3d285cc2"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "1339199c-1559-45c6-81ec-c1cc0b1f5ddf"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "c81378a9-3af9-4908-bcbd-f37030f45ba0"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "26bc65a2-e3eb-4224-9067-b4fc5636d3fe"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "d8403ad8-4f03-4e86-8f28-934087bc4414"
       }
     ],
     "Connections": [
@@ -63,6 +91,26 @@
         "B": {
           "ID": "b0bcafaf-a804-404f-b935-a9807f4a65ec",
           "AttachmentPoint": "B00"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "P00:60"
+        },
+        "B": {
+          "ID": "27077cb8-f300-4c21-95bf-70eeb1080f34",
+          "AttachmentPoint": "+"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "P01:60"
+        },
+        "B": {
+          "ID": "27077cb8-f300-4c21-95bf-70eeb1080f34",
+          "AttachmentPoint": "-"
         }
       },
       {
@@ -228,6 +276,16 @@
       {
         "A": {
           "ID": "b0bcafaf-a804-404f-b935-a9807f4a65ec",
+          "AttachmentPoint": "P03:10"
+        },
+        "B": {
+          "ID": "c044de5d-628d-4be1-850c-8bd98022183c",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "b0bcafaf-a804-404f-b935-a9807f4a65ec",
           "AttachmentPoint": "T09:10"
         },
         "B": {
@@ -237,11 +295,11 @@
       },
       {
         "A": {
-          "ID": "b0bcafaf-a804-404f-b935-a9807f4a65ec",
-          "AttachmentPoint": "P03:10"
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "T02:13"
         },
         "B": {
-          "ID": "c044de5d-628d-4be1-850c-8bd98022183c",
+          "ID": "8b5c1b8b-742e-4712-a333-1bd40778cd0a",
           "AttachmentPoint": "1"
         }
       },
@@ -258,10 +316,120 @@
       {
         "A": {
           "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
-          "AttachmentPoint": "T02:13"
+          "AttachmentPoint": "T09:11"
         },
         "B": {
-          "ID": "8b5c1b8b-742e-4712-a333-1bd40778cd0a",
+          "ID": "f7ab33cd-b70d-4ceb-ae26-9045e7e535e5",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "P02:11"
+        },
+        "B": {
+          "ID": "f7ab33cd-b70d-4ceb-ae26-9045e7e535e5",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "P02:12"
+        },
+        "B": {
+          "ID": "d6b45d41-cf8b-4824-94c1-badb3d285cc2",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "T09:13"
+        },
+        "B": {
+          "ID": "d6b45d41-cf8b-4824-94c1-badb3d285cc2",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "T09:15"
+        },
+        "B": {
+          "ID": "1339199c-1559-45c6-81ec-c1cc0b1f5ddf",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "P02:15"
+        },
+        "B": {
+          "ID": "1339199c-1559-45c6-81ec-c1cc0b1f5ddf",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "T00:14"
+        },
+        "B": {
+          "ID": "c81378a9-3af9-4908-bcbd-f37030f45ba0",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "P00:14"
+        },
+        "B": {
+          "ID": "c81378a9-3af9-4908-bcbd-f37030f45ba0",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "T00:10"
+        },
+        "B": {
+          "ID": "26bc65a2-e3eb-4224-9067-b4fc5636d3fe",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "P00:10"
+        },
+        "B": {
+          "ID": "26bc65a2-e3eb-4224-9067-b4fc5636d3fe",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "T00:12"
+        },
+        "B": {
+          "ID": "d8403ad8-4f03-4e86-8f28-934087bc4414",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "P00:12"
+        },
+        "B": {
+          "ID": "d8403ad8-4f03-4e86-8f28-934087bc4414",
           "AttachmentPoint": "1"
         }
       }
