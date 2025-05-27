@@ -22,6 +22,10 @@
         "ID": "353b9194-a4e1-443e-b098-f200f8e94c3d"
       },
       {
+        "$type": "BTS1102D",
+        "ID": "8ab9f9a0-abc7-41b3-a687-a491ffb5483c"
+      },
+      {
         "$type": "CarbonFilmFixedResistor220",
         "ID": "1adb51e0-b269-4a69-9d88-03d90d77fc24"
       },
@@ -86,6 +90,10 @@
         "ID": "9b5a4a91-4881-47d9-9b40-7d18641f60f0"
       },
       {
+        "$type": "CarbonFilmFixedResistor220",
+        "ID": "3f8dd3a5-019e-4f23-b3af-b1803d2f6436"
+      },
+      {
         "$type": "RedWire",
         "ID": "0ec142d6-7eb7-462b-92a3-38881d90ed17"
       },
@@ -139,10 +147,6 @@
       },
       {
         "$type": "RedWire",
-        "ID": "26bc65a2-e3eb-4224-9067-b4fc5636d3fe"
-      },
-      {
-        "$type": "RedWire",
         "ID": "d8403ad8-4f03-4e86-8f28-934087bc4414"
       },
       {
@@ -176,6 +180,14 @@
       {
         "$type": "WhiteWire",
         "ID": "5c8b8588-f840-42c8-b1f2-57bfe0384429"
+      },
+      {
+        "$type": "BlackWire",
+        "ID": "0006d955-cd26-40f9-a305-2eef189c526b"
+      },
+      {
+        "$type": "BlackWire",
+        "ID": "f7906581-8a3b-4668-863d-85bf949f41c8"
       }
     ],
     "Connections": [
@@ -232,11 +244,11 @@
       {
         "A": {
           "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
-          "AttachmentPoint": "T09:38"
+          "AttachmentPoint": "T04:04"
         },
         "B": {
-          "ID": "1adb51e0-b269-4a69-9d88-03d90d77fc24",
-          "AttachmentPoint": "0"
+          "ID": "8ab9f9a0-abc7-41b3-a687-a491ffb5483c",
+          "AttachmentPoint": "4"
         }
       },
       {
@@ -252,11 +264,11 @@
       {
         "A": {
           "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
-          "AttachmentPoint": "T04:38"
+          "AttachmentPoint": "T09:38"
         },
         "B": {
-          "ID": "0c165b2a-44c8-4ea1-97e6-e934c88d2061",
-          "AttachmentPoint": "+"
+          "ID": "1adb51e0-b269-4a69-9d88-03d90d77fc24",
+          "AttachmentPoint": "0"
         }
       },
       {
@@ -272,11 +284,11 @@
       {
         "A": {
           "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
-          "AttachmentPoint": "T05:41"
+          "AttachmentPoint": "T04:38"
         },
         "B": {
-          "ID": "f843645f-69ae-4857-b450-96d50941ddb0",
-          "AttachmentPoint": "-"
+          "ID": "0c165b2a-44c8-4ea1-97e6-e934c88d2061",
+          "AttachmentPoint": "+"
         }
       },
       {
@@ -287,6 +299,16 @@
         "B": {
           "ID": "f843645f-69ae-4857-b450-96d50941ddb0",
           "AttachmentPoint": "+"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "T05:41"
+        },
+        "B": {
+          "ID": "f843645f-69ae-4857-b450-96d50941ddb0",
+          "AttachmentPoint": "-"
         }
       },
       {
@@ -352,21 +374,21 @@
       {
         "A": {
           "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
-          "AttachmentPoint": "T05:53"
-        },
-        "B": {
-          "ID": "0053b638-c471-468e-8189-14797f2fa854",
-          "AttachmentPoint": "-"
-        }
-      },
-      {
-        "A": {
-          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
           "AttachmentPoint": "T04:53"
         },
         "B": {
           "ID": "0053b638-c471-468e-8189-14797f2fa854",
           "AttachmentPoint": "+"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "T05:53"
+        },
+        "B": {
+          "ID": "0053b638-c471-468e-8189-14797f2fa854",
+          "AttachmentPoint": "-"
         }
       },
       {
@@ -412,16 +434,6 @@
       {
         "A": {
           "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
-          "AttachmentPoint": "P03:41"
-        },
-        "B": {
-          "ID": "3d30626c-d44e-466a-9f4a-a8b0d3f76a25",
-          "AttachmentPoint": "1"
-        }
-      },
-      {
-        "A": {
-          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
           "AttachmentPoint": "T09:41"
         },
         "B": {
@@ -432,11 +444,11 @@
       {
         "A": {
           "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
-          "AttachmentPoint": "T09:44"
+          "AttachmentPoint": "P03:41"
         },
         "B": {
-          "ID": "45e6866a-9801-41c9-94fc-554e00f77f7b",
-          "AttachmentPoint": "0"
+          "ID": "3d30626c-d44e-466a-9f4a-a8b0d3f76a25",
+          "AttachmentPoint": "1"
         }
       },
       {
@@ -452,10 +464,10 @@
       {
         "A": {
           "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
-          "AttachmentPoint": "T09:47"
+          "AttachmentPoint": "T09:44"
         },
         "B": {
-          "ID": "028d4990-c36c-4214-a553-8d6ef3da4677",
+          "ID": "45e6866a-9801-41c9-94fc-554e00f77f7b",
           "AttachmentPoint": "0"
         }
       },
@@ -467,6 +479,16 @@
         "B": {
           "ID": "028d4990-c36c-4214-a553-8d6ef3da4677",
           "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "T09:47"
+        },
+        "B": {
+          "ID": "028d4990-c36c-4214-a553-8d6ef3da4677",
+          "AttachmentPoint": "0"
         }
       },
       {
@@ -512,6 +534,16 @@
       {
         "A": {
           "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "P03:56"
+        },
+        "B": {
+          "ID": "00c4512f-38ca-4336-a147-51dfb4e1004f",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
           "AttachmentPoint": "T09:56"
         },
         "B": {
@@ -522,11 +554,11 @@
       {
         "A": {
           "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
-          "AttachmentPoint": "P03:56"
+          "AttachmentPoint": "T09:59"
         },
         "B": {
-          "ID": "00c4512f-38ca-4336-a147-51dfb4e1004f",
-          "AttachmentPoint": "1"
+          "ID": "9b5a4a91-4881-47d9-9b40-7d18641f60f0",
+          "AttachmentPoint": "0"
         }
       },
       {
@@ -542,11 +574,21 @@
       {
         "A": {
           "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
-          "AttachmentPoint": "T09:59"
+          "AttachmentPoint": "P00:10"
         },
         "B": {
-          "ID": "9b5a4a91-4881-47d9-9b40-7d18641f60f0",
+          "ID": "3f8dd3a5-019e-4f23-b3af-b1803d2f6436",
           "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "T00:10"
+        },
+        "B": {
+          "ID": "3f8dd3a5-019e-4f23-b3af-b1803d2f6436",
+          "AttachmentPoint": "1"
         }
       },
       {
@@ -572,16 +614,6 @@
       {
         "A": {
           "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
-          "AttachmentPoint": "T09:17"
-        },
-        "B": {
-          "ID": "43dece2d-c9b2-4d0f-a055-a57618c8b25e",
-          "AttachmentPoint": "0"
-        }
-      },
-      {
-        "A": {
-          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
           "AttachmentPoint": "P02:17"
         },
         "B": {
@@ -592,11 +624,11 @@
       {
         "A": {
           "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
-          "AttachmentPoint": "P03:02"
+          "AttachmentPoint": "T09:17"
         },
         "B": {
-          "ID": "2742630c-0c3d-4bcb-ae73-204b21ecab76",
-          "AttachmentPoint": "1"
+          "ID": "43dece2d-c9b2-4d0f-a055-a57618c8b25e",
+          "AttachmentPoint": "0"
         }
       },
       {
@@ -607,6 +639,16 @@
         "B": {
           "ID": "2742630c-0c3d-4bcb-ae73-204b21ecab76",
           "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "P03:02"
+        },
+        "B": {
+          "ID": "2742630c-0c3d-4bcb-ae73-204b21ecab76",
+          "AttachmentPoint": "1"
         }
       },
       {
@@ -651,22 +693,22 @@
       },
       {
         "A": {
-          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
-          "AttachmentPoint": "P03:03"
-        },
-        "B": {
-          "ID": "27dbee28-e17e-4600-997d-2f1ae8bb81ad",
-          "AttachmentPoint": "0"
-        }
-      },
-      {
-        "A": {
           "ID": "b0bcafaf-a804-404f-b935-a9807f4a65ec",
           "AttachmentPoint": "P03:03"
         },
         "B": {
           "ID": "27dbee28-e17e-4600-997d-2f1ae8bb81ad",
           "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "P03:03"
+        },
+        "B": {
+          "ID": "27dbee28-e17e-4600-997d-2f1ae8bb81ad",
+          "AttachmentPoint": "0"
         }
       },
       {
@@ -692,21 +734,21 @@
       {
         "A": {
           "ID": "b0bcafaf-a804-404f-b935-a9807f4a65ec",
-          "AttachmentPoint": "P03:10"
-        },
-        "B": {
-          "ID": "c044de5d-628d-4be1-850c-8bd98022183c",
-          "AttachmentPoint": "1"
-        }
-      },
-      {
-        "A": {
-          "ID": "b0bcafaf-a804-404f-b935-a9807f4a65ec",
           "AttachmentPoint": "T09:10"
         },
         "B": {
           "ID": "c044de5d-628d-4be1-850c-8bd98022183c",
           "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "b0bcafaf-a804-404f-b935-a9807f4a65ec",
+          "AttachmentPoint": "P03:10"
+        },
+        "B": {
+          "ID": "c044de5d-628d-4be1-850c-8bd98022183c",
+          "AttachmentPoint": "1"
         }
       },
       {
@@ -772,21 +814,21 @@
       {
         "A": {
           "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
-          "AttachmentPoint": "T09:15"
-        },
-        "B": {
-          "ID": "1339199c-1559-45c6-81ec-c1cc0b1f5ddf",
-          "AttachmentPoint": "0"
-        }
-      },
-      {
-        "A": {
-          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
           "AttachmentPoint": "P02:15"
         },
         "B": {
           "ID": "1339199c-1559-45c6-81ec-c1cc0b1f5ddf",
           "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "T09:15"
+        },
+        "B": {
+          "ID": "1339199c-1559-45c6-81ec-c1cc0b1f5ddf",
+          "AttachmentPoint": "0"
         }
       },
       {
@@ -812,21 +854,11 @@
       {
         "A": {
           "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
-          "AttachmentPoint": "T00:10"
+          "AttachmentPoint": "T00:12"
         },
         "B": {
-          "ID": "26bc65a2-e3eb-4224-9067-b4fc5636d3fe",
+          "ID": "d8403ad8-4f03-4e86-8f28-934087bc4414",
           "AttachmentPoint": "0"
-        }
-      },
-      {
-        "A": {
-          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
-          "AttachmentPoint": "P00:10"
-        },
-        "B": {
-          "ID": "26bc65a2-e3eb-4224-9067-b4fc5636d3fe",
-          "AttachmentPoint": "1"
         }
       },
       {
@@ -837,16 +869,6 @@
         "B": {
           "ID": "d8403ad8-4f03-4e86-8f28-934087bc4414",
           "AttachmentPoint": "1"
-        }
-      },
-      {
-        "A": {
-          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
-          "AttachmentPoint": "T00:12"
-        },
-        "B": {
-          "ID": "d8403ad8-4f03-4e86-8f28-934087bc4414",
-          "AttachmentPoint": "0"
         }
       },
       {
@@ -1006,6 +1028,46 @@
         },
         "B": {
           "ID": "5c8b8588-f840-42c8-b1f2-57bfe0384429",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "T01:10"
+        },
+        "B": {
+          "ID": "0006d955-cd26-40f9-a305-2eef189c526b",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "T01:06"
+        },
+        "B": {
+          "ID": "0006d955-cd26-40f9-a305-2eef189c526b",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "T00:04"
+        },
+        "B": {
+          "ID": "f7906581-8a3b-4668-863d-85bf949f41c8",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "P01:04"
+        },
+        "B": {
+          "ID": "f7906581-8a3b-4668-863d-85bf949f41c8",
           "AttachmentPoint": "1"
         }
       }
