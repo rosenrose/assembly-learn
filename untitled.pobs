@@ -236,6 +236,14 @@
       {
         "$type": "YellowWire",
         "ID": "2e821331-808b-4877-899f-210537497fd2"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "11c51ade-0387-44b1-93da-374ba7e09321"
+      },
+      {
+        "$type": "BlackWire",
+        "ID": "da1547ed-6130-4d32-a9f5-e3b046601c0b"
       }
     ],
     "Connections": [
@@ -772,21 +780,21 @@
       {
         "A": {
           "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
-          "AttachmentPoint": "T03:17"
-        },
-        "B": {
-          "ID": "39dbd9bc-e531-4c65-91c4-942bec82e41f",
-          "AttachmentPoint": "0"
-        }
-      },
-      {
-        "A": {
-          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
           "AttachmentPoint": "T09:50"
         },
         "B": {
           "ID": "39dbd9bc-e531-4c65-91c4-942bec82e41f",
           "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "T03:17"
+        },
+        "B": {
+          "ID": "39dbd9bc-e531-4c65-91c4-942bec82e41f",
+          "AttachmentPoint": "0"
         }
       },
       {
@@ -1052,21 +1060,21 @@
       {
         "A": {
           "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
-          "AttachmentPoint": "T09:43"
-        },
-        "B": {
-          "ID": "a0872c64-c781-4542-8639-cf6dc91f3438",
-          "AttachmentPoint": "1"
-        }
-      },
-      {
-        "A": {
-          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
           "AttachmentPoint": "T09:24"
         },
         "B": {
           "ID": "a0872c64-c781-4542-8639-cf6dc91f3438",
           "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "T09:43"
+        },
+        "B": {
+          "ID": "a0872c64-c781-4542-8639-cf6dc91f3438",
+          "AttachmentPoint": "1"
         }
       },
       {
@@ -1326,6 +1334,46 @@
         },
         "B": {
           "ID": "2e821331-808b-4877-899f-210537497fd2",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "T00:41"
+        },
+        "B": {
+          "ID": "11c51ade-0387-44b1-93da-374ba7e09321",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "P00:41"
+        },
+        "B": {
+          "ID": "11c51ade-0387-44b1-93da-374ba7e09321",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "T00:46"
+        },
+        "B": {
+          "ID": "da1547ed-6130-4d32-a9f5-e3b046601c0b",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "16b835c7-9aa2-4dd9-90dc-c3d1b22a83ee",
+          "AttachmentPoint": "P01:46"
+        },
+        "B": {
+          "ID": "da1547ed-6130-4d32-a9f5-e3b046601c0b",
           "AttachmentPoint": "1"
         }
       }
