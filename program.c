@@ -12,15 +12,13 @@ int main(void)
         0,
     };
 
-    const char program[] = {0xA9, 0xFF, 0x4C, 0x00, 0x80};
-    /*
-    unsigned char a;
-
-    do
-    {
-        a = 0xFF;
-    } while (1);
-    */
+    const char program[] = {
+        0x18,             /* clc */
+        0xA9, 0x0A,       /* lda #$0A */
+        0x69, 0x06,       /* adc #$06 */
+        0x8D, 0x00, 0x22, /* sta $2200 */
+        0XAD, 0x00, 0x22  /* lda $2200 ROM의 주소를 읽어므로 쓰레기값 */
+    };
     size_t program_size = program_size = sizeof(program) / sizeof(char);
 
     assert(program_size < 0x7FFC);
