@@ -6,6 +6,6 @@
     adc #$06
     sta $2200
 
-    .ORG $FFFC, 0
+    .ORG $FFFC,0
     .WORD $8000
-    .WORD $8000
+    .WORD $0000
