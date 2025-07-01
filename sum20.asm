@@ -10,15 +10,14 @@ out=$11
 
     clc
     lda #0 ; sum = 0
-    ldx #1 ; index = 1
+    ldx #MAX ; index = MAX
 
 loop:
-    cpx #MAX+1
     beq exit
 
     stx index
     adc index
-    inx
+    dex
     jmp loop
 
 exit:
