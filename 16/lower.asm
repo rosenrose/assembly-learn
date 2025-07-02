@@ -4,6 +4,8 @@
     ldx #$FF
     txs
 
+lower=$80
+
     ldx #0
 
 loop:
@@ -18,7 +20,7 @@ loop:
     ora #%00100000
 
 continue:
-    sta str,x
+    sta lower,x
     inx
     jmp loop
 
