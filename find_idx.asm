@@ -4,18 +4,16 @@
     ldx #$FF
     txs
 
-LEN=estr-str
 CHAR="l"
 idx=$90
 
-    lda #CHAR
     ldx #0 ; X = 결과
 
 loop:
-    cpx #LEN
+    lda str,x
     beq not_found
 
-    cmp str,x
+    cmp #CHAR
     beq exit
     inx
     jmp loop
@@ -29,7 +27,7 @@ exit:
     .ORG $C000,0
 str:
     .BYTE "Hello World"
-estr:
+    .BYTE 0 ; 널 문자
 
     .ORG $FFFC,0
     .WORD $8000
