@@ -11,11 +11,11 @@ r=$80
     ror r
     rol
     ror r
-  
-    ror r
-  rol
+    rol
     ror r
     rol
+    ror r
+
     rol
     ror r
     rol
