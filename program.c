@@ -19,7 +19,7 @@ int main(void)
         0x8D, 0x00, 0x22, /* sta $2200 */
         0XAD, 0x00, 0x22  /* lda $2200 */
     };
-    size_t program_size = program_size = sizeof(program) / sizeof(char);
+    size_t program_size = sizeof(program) / sizeof(char);
 
     assert(program_size < 0x7FFC);
 
