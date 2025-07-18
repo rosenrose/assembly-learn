@@ -4,6 +4,7 @@
     ldx #$FF
     txs
 
+PG1=$0100 ; 페이지 1은 스택 시작주소
 out=$12
 
     lda #4
@@ -24,33 +25,17 @@ out=$12
     sta out+2
     pla
 
-func: ; (s[0]) -> A | <X, P, 0x10, 0x11>
+func: ; (s[0]) -> A | <X, P>
 ;=======================================
 ; s[0] / 2 + 1 계산
 ;=======================================
-vtmp=$10
-    pla
-    sta vtmp
-    pla
-    sta vtmp+1
-
-    ; s[0]
-    pla
-    pha ; 스택 복구 1/2단계
-
-    ; s[0] / 2 + 1
+    tsx
+    
+    lda PG1+3,x
     lsr
     clc
     adc #1
 
-    tax
-    
-    lda vtmp+1 ; 스택 복구 2/2단계
-    pha
-    lda vtmp
-    pha
-
-    txa
     rts
 
     .ORG $FFFC,0
