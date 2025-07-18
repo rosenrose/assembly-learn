@@ -21,9 +21,7 @@ out=$12
     sta op
     ; =======================
 
-    clc
-    lda op
-    tax
+    ldx op
 
     lda table_lo,x
     sta opaddr
@@ -68,15 +66,15 @@ end:
 
     .ORG $C000,0
 table_lo:
-    .WORD <calc_add      ; index = 0
-    .WORD <calc_sub      ; index = 1
-    .WORD <calc_lshift   ; index = 2
-    .WORD <calc_rshift   ; index = 3
+    .BYTE <calc_add      ; index = 0
+    .BYTE <calc_sub      ; index = 1
+    .BYTE <calc_lshift   ; index = 2
+    .BYTE <calc_rshift   ; index = 3
 table_hi:
-    .WORD >calc_add      ; index = 0
-    .WORD >calc_sub      ; index = 1
-    .WORD >calc_lshift   ; index = 2
-    .WORD >calc_rshift   ; index = 3
+    .BYTE >calc_add      ; index = 0
+    .BYTE >calc_sub      ; index = 1
+    .BYTE >calc_lshift   ; index = 2
+    .BYTE >calc_rshift   ; index = 3
 
     .ORG $FFFC,0
     .WORD $8000
