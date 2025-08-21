@@ -18,6 +18,12 @@ PG1=$0100
 
     jsr strcpy
 
+    ; 스택 복구
+    pla
+    pla
+    pla
+    pla
+
 strcpy: ; (s[0], s[2]) -> <A, X, Y, P, 0x00~05, (s[0])>
 ;=======================================
 ; summary: (s[2])에서 (s[0])로 문자열 복사
@@ -25,16 +31,16 @@ strcpy: ; (s[0], s[2]) -> <A, X, Y, P, 0x00~05, (s[0])>
     .SUBROUTINE
 vsrc=$00
 vdst=vsrc+2
-vretaddr=vdst+2
-POPCNT=vretaddr+2-vsrc
 
-    ldx #POPCNT-1
-
-.poploop
-    pla
-    sta vsrc,x
-    dex
-    bpl .poploop
+    tsx
+    lda PG1+3,x
+    sta vdst+1
+    lda PG1+4,x
+    sta vdst
+    lda PG1+5,x
+    sta vsrc+1
+    lda PG1+6,x
+    sta vsrc
 
     ldy #$FF ; -1
 
@@ -43,12 +49,6 @@ POPCNT=vretaddr+2-vsrc
     lda (vsrc),y
     sta (vdst),y
     bne .loop
-
-    ; 스택 복구
-    lda vretaddr
-    pha
-    lda vretaddr+1
-    pha
 
     rts
 
